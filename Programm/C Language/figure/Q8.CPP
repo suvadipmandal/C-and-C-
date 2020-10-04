@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+#include<ctype.h>
+ void main()
+   {
+   int i,j;
+   for(i=1;i<=3;++i)
+    for(j=1;j<=5;++j)
+      {
+      printf("*");
+      }
+   printf("\n");
+   }

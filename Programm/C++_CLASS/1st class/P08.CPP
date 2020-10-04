@@ -1,0 +1,35 @@
+#include<iostream.h>
+#include<conio.h>
+class sum
+ {
+ int n1,n2,tot;
+ void cal(void)
+  {
+  tot=n1+n2;
+  }
+ void input(void)
+  {
+  clrscr();
+  cout<<"\nenter 1st number :";
+  cin>>n1;
+  cout<<"enter 2nd number :";
+  cin>>n2;
+  }
+ void print(void)
+  {
+  cout<<"\nsum="<<tot;
+  getch();
+  }
+ public:
+ void master(void)
+  {
+  input();
+  cal();
+  print();
+  }
+ };
+void main()
+ {
+ sum s;
+ s.master();
+ }
